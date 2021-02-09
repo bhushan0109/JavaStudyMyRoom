@@ -1,0 +1,6 @@
+What is this Keyword in Java?
+this keyword in Java is a reference variable that refers to the current object of 
+a method or a constructor. The main purpose of using this keyword in Java is to remove t
+he confusion between class attributes and parameters that have same names.
+
+Following are various uses of 'this' keyword in Java:

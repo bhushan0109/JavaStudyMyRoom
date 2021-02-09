@@ -1,0 +1,12 @@
+What is Class in Java?
+Class are a blueprint or a set of instructions to build a specific type of object.
+2.object
+Object is an instance of a class. An object in OOPS is nothing but a self-contained component 
+which consists of methods and properties to make a particular type of data useful.
+ For example color name, table, bag,
+ syntaxt
+ ClassName ReferenceVariable = new ClassName();
+ 
+ Class - Dogs
+Data members or objects- size, age, color, breed, etc.
+Methods- eat, sleep, sit and run.

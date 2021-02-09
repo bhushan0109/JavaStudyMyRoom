@@ -1,0 +1,14 @@
+What is Data Types in Java?
+Data Types in Java are defined as specifiers that allocate different sizes and types of values that can be stored in the variable or an identifier. Java has a rich set of data types. Data types in Java can be divided into two parts :
+
+Primitive Data Types :- which include integer, character, boolean, and float
+Non-primitive Data Types :- which include classes, arrays and interfaces.
+byte (1 byte)
+short (2 bytes)
+char (2 bytes)
+int (4 bytes)
+float (4 bytes)
+double (8 bytes)
+long (8 bytes)
+boolean (1 byte) (true/false)
+

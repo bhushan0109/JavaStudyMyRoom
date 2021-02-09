@@ -1,0 +1,16 @@
+.class ====== file converted by help of compiler =======> into .class file(bytecode)
+aall below 3 type process in jvm
+1)class loader
+a)loading
+b)linking
+c initializing
+
+2)memory area
+a)method area==static block execute,static variable stor2
+b)heap area==object, instant variable, array====> store hote hai
+c)stack area=current running method store  ,local variable store
+
+
+3)execution engine
+jit==just in time
+native library

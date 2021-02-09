@@ -1,0 +1,15 @@
+What is JDK?
+JDK helps them to code and run Java programs.
+What is JRE?
+JRE is a piece of a software which is designed to run other software. It contains the class libraries, 
+loader class, and JVM. 
+
+Features of JDK
+Here are the important features of JDK:
+
+It enables you to handle multiple extensions in a single catch block.
+JDK includes all features that JRE has.
+It contains development tools such as a compiler, debugger, etc.
+JDK provides the environment to develop and execute Java source code.
+It can be installed on Windows, Unix, and Mac operating systems.
+Diamond operator can be used in specifying a generic type interface instead of writing the exact one.

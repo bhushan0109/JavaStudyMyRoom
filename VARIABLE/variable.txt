@@ -1,0 +1,15 @@
+Types of variables
+In Java, there are three types of variables:
+
+Local Variables
+Instance Variables
+Static Variables
+
+class Guru99 {
+    static int a = 1; //static variable  
+    int data = 99; //instance variable  
+    void method() {
+        int b = 90; //local variable  
+    }
+}
+

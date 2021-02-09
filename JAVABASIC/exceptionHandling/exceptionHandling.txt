@@ -1,0 +1,28 @@
+Exception in Java is an event that interrupts the execution of program instructions 
+and disturbs the normal flow of program execution.
+
+There are two types of errors:
+
+Compile time errors
+Runtime errors
+
+
+note==compile time per kohi bhi exception accur nhi hoti hai...only compiler report karta hai
+..ki ye e
+exceptiom aane wali hai
+
+type of exeption
+
+1. Checked Exception=
+Error are known as checked exceptions e.g. IOException, SQLException etc.
+ Checked exceptions are checked at compile-time.
+ 
+2.Unchecked Exception
+Error
+The classes which inherit RuntimeException are known as unchecked exceptions 
+e.g. ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
+ Unchecked exceptions are not checked at compile-time, 
+but they are checked at runtime.
+
+3) Error
+Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, AssertionError etc.
