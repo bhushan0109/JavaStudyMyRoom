@@ -1,6 +1,12 @@
 package encapsulation;
 
-
+/*
+Encapsulation:-
+he process of binding the data and code as a single unit is called encapsulation.
+Or
+The process of hiding the implementation details to user is called encapsulation. 
+And we are achieving this concept by declaring variables as a private modifier because 
+it is possible to access private members with in the class only.*/
 class Test {
 	private int id;
 	private float marks;
@@ -19,7 +25,11 @@ class Test {
 	}
 
 	public void setMarks(float marks) {
-		this.marks = marks;
+		if (marks > 10) {
+			System.out.println("not valid " + marks);
+
+		} else
+			this.marks = marks;
 	}
 
 	public String getName() {
@@ -33,14 +43,15 @@ class Test {
 
 public class Encapsulation1 {
 	public static void main(String[] args) {
-	Test t = new Test();
-	t.setId(20);
-	t.setMarks(56);
-	t.setName("bhusan");
-	System.out.println(t.getId());
-	System.out.println(t.getMarks());
-	System.out.println(t.getName());
-	
+		Test t = new Test();
+		t.setId(20);
+		t.setMarks(5);
+		t.setName("bhusan");
+		t.setName("raj");
+		System.out.println(t.getId());
+		System.out.println(t.getMarks());
+		System.out.println(t.getName());
+
 	}
 
 }

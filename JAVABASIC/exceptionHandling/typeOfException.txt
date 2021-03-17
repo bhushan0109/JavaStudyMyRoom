@@ -1,0 +1,32 @@
+The root class of exception handling is Throwable class
+
+1)check exception
+
+java.lang.InterruptedException
+Java.io.FileNotFoundException
+ Java.sql.SQLException
+ 
+ 
+2 Unchecked Exception:-
+
+The exceptions which are not checked by the compiler at the time of compilation are called unchecked Exception.
+ArithmeticException,ArrayIndexOutOfBoundsException,NumberFormatException….etc
+
+Exception handling key words:-
+1) try
+2) catch
+3) finally
+4) throw
+5) throws
+
+There are two ways to handle the exceptions in java.
+1) By using try-catch block.
+2) By using throws keyword.
+
+
+note : if there is no exception in try block the corresponding catch blocks are not checked.
+
+There are three methods to print Exception information
+toString()
+ getMessage()
+ printStackTrace()

@@ -3,13 +3,15 @@ package ananymusCLASS;
 class Addition {
 	int c;
 
-	public void add(int a, int b) {
-		c = a + b;
+	public  int add(int a, int b) {
+		return   a + b;
 
 	}
 
 	void display() {
-		System.out.println(c);
+		System.out.println(add(4,6));
+		System.out.println();
+
 
 	}
 }

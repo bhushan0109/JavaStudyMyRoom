@@ -1,0 +1,16 @@
+java variables- is container which hold the value
+3 types of varible
+1)local,instance and static
+local varible----declare inside the method
+2)data types---primitive and non primitive
+
+Primitive data types: The primitive data types include 
+boolean, 1 bit
+char, 2byte
+byte,  1byte
+ short,2byte
+  int,4 byte
+   long,8 byte
+    float 4byte
+     double.8 byte
+Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.

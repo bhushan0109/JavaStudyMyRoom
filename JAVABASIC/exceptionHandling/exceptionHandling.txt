@@ -5,6 +5,9 @@ There are two types of errors:
 
 Compile time errors
 Runtime errors
+There are two ways to handle the exceptions in java.
+1) By using try-catch block.
+2) By using throws keyword.
 
 
 note==compile time per kohi bhi exception accur nhi hoti hai...only compiler report karta hai
@@ -26,3 +29,12 @@ but they are checked at runtime.
 
 3) Error
 Error is irrecoverable e.g. OutOfMemoryError, VirtualMachineError, AssertionError etc.
+
+
+
+
+
+
+If the exception raised in try block the remaining code of try block is not executed.
+ Once the control is out of the try block the control never entered into try block once again.
+ Don’t take normal code inside try block because no guarantee all statements in try-block will be executed or not.

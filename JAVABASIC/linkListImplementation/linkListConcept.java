@@ -26,7 +26,7 @@ public class linkListConcept {
 		emptylist.printLinkedLIST();
 	}
 
-	private void printLinkedLIST() {
+	public void printLinkedLIST() {
 		Node tempNode = head;
 		while (tempNode != null) {
 			System.out.println(tempNode.data + " ");
